@@ -10,9 +10,9 @@ userChoice = prompt("Heads or Tails");
 //    console.log(Math.random());
 
 function randomNumber(){
-return Math.floor(Math.random()*1);
+return Math.floor(Math.random()*2);
 }
-if (computerChoice = 1) {
+if (randomNumber === computerChoice) {
     var computerChoice = "Tails";
 } else { 
     var computerChoice = "Heads";
@@ -23,7 +23,7 @@ if (computerChoice = 1) {
 //  else {y= 1};
 
 // let randomNumber = computerChoice
-
+// let (randomNumber = computerChoice);
 if (userChoice == computerChoice) 
 {alert ("You guessed right! The coin flip landed on " +userChoice)
 } else {alert ("Sorry, the coin flip landed on " +computerChoice)}
