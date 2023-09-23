@@ -9,11 +9,13 @@ userChoice = prompt("Heads or Tails");
 //    console.log(getRandomInt(1));
 //    console.log(Math.random());
 
-randomNumber = Math.round(Math.random()*1) ;
-if (computerChoice < 0.5) {
-    var computerChoice = "Heads";
-} else if (computerChoice = 1){ 
+function randomNumber(){
+return Math.floor(Math.random()*1);
+}
+if (computerChoice = 1) {
     var computerChoice = "Tails";
+} else { 
+    var computerChoice = "Heads";
 }
 // Math.floor((Math.random() * 1) + 1);
 // var y = Math.random();
